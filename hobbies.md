@@ -10,6 +10,12 @@ comments: false
 
 
 * [listening To Musics]
-* [Body Building]
-
-
+* [Wood Working]
+* [Exercising]
+* [Running]
+* [Hiking]
+* [Camping]
+* [Cycling]
+* [LATTE ART]
+* [Editing Videos]
+* [Designing Planners]
