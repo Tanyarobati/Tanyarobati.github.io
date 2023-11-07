@@ -108,8 +108,8 @@ analytics:
 # Site Author
 author:
   name             : "Tanya Robati"
-  avatar           : "C:\Users\Informatic Iran\Desktop\photo_2023-10-19_23-29-41.jpg"
-  bio              : IUST Student
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : Iust Student
   location         : "Iran,Tehran"
   email            : tanyarobati@gmail.com
   twitter: 

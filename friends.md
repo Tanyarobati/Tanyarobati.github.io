@@ -2,14 +2,15 @@
 layout: single
 author_profile: true
 permalink: /friends/
-title: My Friends Around The World
+title: My friends around the world
 tags: [friends]
 modified: 4-10-2019
 comments: true
 ---
 
-* Parinaz Karimi
-* Aylin Barjasteh
+### Friends
+* [Parinaz Karimi]
+* [Aylin Barjasteh] 
 
 
 
