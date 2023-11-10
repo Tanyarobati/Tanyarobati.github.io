@@ -16,6 +16,6 @@ comments: false
 * [Hiking]
 * [Camping]
 * [Cycling]
-* [LATTE ART]
+* [Latte Art]
 * [Editing Videos]
 * [Designing Planners]
