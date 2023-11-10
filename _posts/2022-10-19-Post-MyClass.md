@@ -1,8 +1,11 @@
 ---
 layout: posts
-title: در کلاس چه گذشت
+title: what is dr.etemadi teaching us?
 ---
 
-- We wrote some code
-- We built our website
-- We pushed
+- fractalls in python
+- varriables in python
+- git clone/add/commit/push/pull
+- Azure DevOps
+- Editting md Files
+- Turtle & Random & Sleep Library
