@@ -9,7 +9,8 @@ comments: false
 ---
 
 
-* [Favorite Personal Trainer](https://www.carolinegirvan.com)
+* [My Favorite Personal Trainer](https://www.carolinegirvan.com)
 * [My Home City](https://en.wikipedia.org/wiki/Tehran)
 * [My University](https://www.iust.ac.ir)
-
+* [My Favorite DesignApp ](https://www.canva.com)
+* [My Favorite To-Do App](https://ticktick.com/?language=en_US)
