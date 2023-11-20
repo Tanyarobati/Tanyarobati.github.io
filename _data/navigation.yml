@@ -14,6 +14,8 @@ main:
     url: /gallery/
   - title: "Blog"
     url: /blog/
+  - title: "Semad"
+    url: https://stu.iust.ac.ir/index.rose    
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
