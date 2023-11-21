@@ -8,8 +8,10 @@ i used turtle module.
 first of all ,i imported turtle module .
 Then i needed branches which the basic idea of it is to go forward , then a little bit left ,then back to the origin and move right to make a ("Y") shape .
 after all , repeating it on a loop with reducing distance and here we go !!!</h5>
-<pre style="font-size:20px;">import turtle
 
+######
+'''
+import turtle
 turtle.speed(0)
 def square():
     turtle.fillcolor("Wheat3")
@@ -57,4 +59,6 @@ def tree(d,r,s):
 turtle.tracer(0)
 tree(80,35,6)
 turtle.update()
-turtle.exitonclick()</pre>
+turtle.exitonclick()
+'''
+######
