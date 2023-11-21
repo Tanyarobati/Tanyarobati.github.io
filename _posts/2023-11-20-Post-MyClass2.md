@@ -63,7 +63,7 @@ turtle.exitonclick()
 <hr>
 
 <img src="../assets/images/Screenshot 2023-11-11 002324.png">
-<h4 style="align-center:center;">Fractals are objects that tend to have self-similar structures repeated a finite number of times.
+<h4 style="text-align:center;">Fractals are objects that tend to have self-similar structures repeated a finite number of times.
 The objective of this article is to draw a star fractal where a star structure is drawn on each corner of the star
 and this process is repeated until the input size reduces to a value of x.
 I use turtle module to achieve that .
