@@ -2,7 +2,7 @@
 layout: posts
 title: my fractalls
 ---
-<img src="../">
+<img src="../assets/images/6.png">
 <h5 style="text-align:center; color:'brown'">A fractal tree is a tree made up by creating recursive branching in a graphics module in python.
 i used turtle module.
 first of all ,i imported turtle module .
