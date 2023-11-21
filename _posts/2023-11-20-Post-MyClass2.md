@@ -10,7 +10,7 @@ Then i needed branches which the basic idea of it is to go forward , then a litt
 after all , repeating it on a loop with reducing distance and here we go !!!</h5>
 
 ######
-'''
+'
 import turtle
 turtle.speed(0)
 def square():
@@ -60,5 +60,83 @@ turtle.tracer(0)
 tree(80,35,6)
 turtle.update()
 turtle.exitonclick()
-'''
+'
 ######
+<hr>
+
+<img src="../assets/images/Screenshot 2023-11-11 002324.png">
+<h4 style="align-center:center;">Fractals are objects that tend to have self-similar structures repeated a finite number of times.
+The objective of this article is to draw a star fractal where a star structure is drawn on each corner of the star
+and this process is repeated until the input size reduces to a value of x.
+I use turtle module to achieve that .
+As you can see i have 2 different types of stars.
+first one is a five-corner-star and second one is a nine-corner-star.
+i used random module to give me random colors for coloring my stars!!</h4>
+
+<pre>import turtle
+import random
+
+
+def frac_star(n,d):
+    if d<5:
+        return
+
+    for _ in range(n):
+        turtle.forward(d)
+        frac_star(n,d*0.2,)
+        turtle.right(180-180/n)
+   
+    turtle.update()
+#turtle.speed(0)
+turtle.tracer(0)
+turtle.penup()    
+turtle.setpos(-600,0)   
+turtle.pendown() 
+turtle.fillcolor(random.random(),random.random(),random.random())
+turtle.begin_fill()
+frac_star(5,150)
+turtle.end_fill()
+turtle.penup()
+turtle.setpos(-100,0)   
+turtle.pendown() 
+turtle.fillcolor(random.random(),random.random(),random.random())
+turtle.begin_fill() 
+frac_star(9,200)
+turtle.end_fill()
+turtle.penup()
+turtle.setpos(400,0)   
+turtle.pendown()
+turtle.fillcolor(random.random(),random.random(),random.random())
+turtle.begin_fill()   
+frac_star(5,150)
+turtle.end_fill()
+
+turtle.mainloop()        
+</pre>
+<hr>
+<img src="../assets/images/Screenshot 2023-11-11 202713.png">
+<pre>import turtle
+import random
+turtle.bgcolor("black")
+# turtle.pencolor("white")
+
+def fractal_tri(d):
+    if d<10:
+        return
+
+    for i in ["red","red","blue"]:
+        turtle.pencolor(i)
+        fractal_tri(d/2)
+        turtle.forward(d)
+        turtle.left(120)
+    turtle.update()
+turtle.tracer(0)    
+
+#turtle.speed(0)   
+turtle.fillcolor("white")
+turtle.begin_fill()     
+fractal_tri(200)
+turtle.end_fill()        
+
+turtle.mainloop()</pre>
+
