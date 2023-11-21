@@ -9,8 +9,7 @@ first of all ,i imported turtle module .
 Then i needed branches which the basic idea of it is to go forward , then a little bit left ,then back to the origin and move right to make a ("Y") shape .
 after all , repeating it on a loop with reducing distance and here we go !!!</h5>
 
-######
-'
+<pre>
 import turtle
 turtle.speed(0)
 def square():
@@ -60,8 +59,7 @@ turtle.tracer(0)
 tree(80,35,6)
 turtle.update()
 turtle.exitonclick()
-'
-######
+</pre>
 <hr>
 
 <img src="../assets/images/Screenshot 2023-11-11 002324.png">
@@ -115,6 +113,11 @@ turtle.mainloop()
 </pre>
 <hr>
 <img src="../assets/images/Screenshot 2023-11-11 202713.png">
+<h4 style="text-align:center;">Fractals are objects that tend to have self-similar structures repeated a finite number of times.
+Sierpinski triangle is a fractal and attractive fixed set with the overall shape of an equilateral triangle.
+It subdivides recursively into smaller triangles
+I use turtle module to achieve that .
+i still struggle to fill_color it So there is no advice for you ~~~</h4>
 <pre>import turtle
 import random
 turtle.bgcolor("black")
@@ -139,4 +142,31 @@ fractal_tri(200)
 turtle.end_fill()        
 
 turtle.mainloop()</pre>
-
+<hr>
+<img src="../assets/images/Screenshot 2023-11-11 203027.png">
+<h4 style="text-align:center;">Fractals are objects that tend to have self-similar structures repeated a finite number of times.
+The objective of this article is to draw a square fractal until the input size reduces to a value of x.
+for achieving this, i used turtle module .
+tip: if you reduce size half the way it was before , you get a grade page which is not very interesting!!
+instead , you can give it 0.3,0.7/0.4,0.6 numbers to make it more thrilling!!
+and if you even want more , you can use random module to randomize its colors!</h4>
+<pre>import turtle
+import random
+#turtle.bgcolor(random.random(),random.random(),random.random())
+def square(a):
+    if a < 10 :
+        return
+    turtle.fillcolor(random.random(),random.random(),random.random())
+    turtle.begin_fill()
+    for _ in range(4):
+        square(a*0.4)
+        turtle.forward(a*0.6)
+        turtle.left(90)
+    
+    turtle.end_fill()    
+    turtle.update()
+#turtle.speed(0)
+turtle.tracer(0)
+square(400) 
+turtle.mainloop()
+</pre>
