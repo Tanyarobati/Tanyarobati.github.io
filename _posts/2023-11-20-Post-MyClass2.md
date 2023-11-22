@@ -10,6 +10,7 @@ Then i needed branches which the basic idea of it is to go forward , then a litt
 after all , repeating it on a loop with reducing distance and here we go !!!</h5>
 
 <pre>
+<span style="font-size: 11px">
 import turtle
 turtle.speed(0)
 def square():
@@ -59,6 +60,7 @@ turtle.tracer(0)
 tree(80,35,6)
 turtle.update()
 turtle.exitonclick()
+</span>
 </pre>
 <hr>
 
