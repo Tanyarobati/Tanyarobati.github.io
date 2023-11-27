@@ -19,8 +19,7 @@ main:
   - title: "LMS"
     url: https://lms.iust.ac.ir/login/index.php       
   - title: "calendar"
-    url: https://calendar.google.com/calendar/embed?src=robatitanya%40gmail.com&ctz=Asia%2FTehran
-
+    url: /calendar/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
