@@ -76,7 +76,7 @@ i used random module to give me random colors for coloring my stars!!</h4>
 <pre>import turtle
 import random
 
-
+<span style="font-size: 11px">
 def frac_star(n,d):
     if d<5:
         return
@@ -111,7 +111,8 @@ turtle.begin_fill()
 frac_star(5,150)
 turtle.end_fill()
 
-turtle.mainloop()        
+turtle.mainloop()   
+</span>     
 </pre>
 <hr>
 <img src="../assets/images/Screenshot 2023-11-11 202713.png">
@@ -120,7 +121,8 @@ Sierpinski triangle is a fractal and attractive fixed set with the overall shape
 It subdivides recursively into smaller triangles
 I use turtle module to achieve that .
 i still struggle to fill_color it So there is no advice for you ~~~</h4>
-<pre>import turtle
+<pre>
+<span style="font-size: 11px">import turtle
 import random
 turtle.bgcolor("black")
 # turtle.pencolor("white")
@@ -143,7 +145,9 @@ turtle.begin_fill()
 fractal_tri(200)
 turtle.end_fill()        
 
-turtle.mainloop()</pre>
+turtle.mainloop()
+</span>
+</pre>
 <hr>
 <img src="../assets/images/Screenshot 2023-11-11 203027.png">
 <h4 style="text-align:center;">Fractals are objects that tend to have self-similar structures repeated a finite number of times.
@@ -152,7 +156,8 @@ for achieving this, i used turtle module .
 tip: if you reduce size half the way it was before , you get a grade page which is not very interesting!!
 instead , you can give it 0.3,0.7/0.4,0.6 numbers to make it more thrilling!!
 and if you even want more , you can use random module to randomize its colors!</h4>
-<pre>import turtle
+<pre>
+<span style="font-size: 11px">import turtle
 import random
 #turtle.bgcolor(random.random(),random.random(),random.random())
 def square(a):
@@ -171,4 +176,5 @@ def square(a):
 turtle.tracer(0)
 square(400) 
 turtle.mainloop()
+</span>
 </pre>
