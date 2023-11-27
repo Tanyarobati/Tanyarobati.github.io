@@ -73,10 +73,10 @@ As you can see i have 2 different types of stars.
 first one is a five-corner-star and second one is a nine-corner-star.
 i used random module to give me random colors for coloring my stars!!</h4>
 
-<pre>import turtle
-import random
-
+<pre>
 <span style="font-size: 11px">
+import turtle
+import random
 def frac_star(n,d):
     if d<5:
         return
