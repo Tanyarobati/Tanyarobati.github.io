@@ -13,11 +13,7 @@ main:
   - title: "Gallery"
     url: /gallery/
   - title: "Blog"
-    url: /blog/
-  - title: "Semad"
-    url: https://stu.iust.ac.ir/index.rose 
-  - title: "LMS"
-    url: https://lms.iust.ac.ir/login/index.php       
+    url: /blog/    
   - title: "calendar"
     url: /calendar/
   # - title: "About"
