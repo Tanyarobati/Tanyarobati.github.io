@@ -13,7 +13,7 @@ comments: true
 * [ Aylin ] 
 * [ Vanda ] 
 * [ Saba ]
-* [ <a href ="https://mobinafarzaneh.github.io/" Mobina</a>]
+* [ <a href ="https://mobinafarzaneh.github.io/"> Mobina</a>]
 
 
 
